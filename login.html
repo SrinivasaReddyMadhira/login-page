@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Login page</title>
+        <style>
+            h2,h4{
+                text-align: center;
+                font-style: italic;
+                font-size: larger;
+                color: tomato;
+                background-color: wheat;
+            }
+            div{
+                color: red;
+                background-color: yellow;
+            }
+            input{
+                text-align: center;
+                color: rgb(139, 19, 19);
+                background-color:yellow;
+                font-style: italic;
+            }
+            input[type="submit"]{
+                text-align: center;
+                width: 200px;
+                margin: 5px;
+            }
+            img{
+                text-align: center;
+                border: blueviolet;
+                padding-left: 30%;
+                                
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h2>Login page</h2>
+        <h4>Please enter your details</h4>
+        <img src="https://www.lookslikefilm.com/wp-content/uploads/2019/01/Amanda-Lennon4.jpg" alt="Family Photo" width="400px" height="200px">
+        <div>
+            <form>
+                <label for="First-Name">First-Name:</label>
+                <input type="text" id="First-Name" placeholder="Family Name" required>
+                <label for="Last-Name">Last-Name:</label>
+                <input type="text" id="Last-Name" placeholder="Your Name" required>
+                <label for="Relation-Withus">Relation-Withus</label>
+                <select name="Relation" id="Relation-Withus" required>
+                    <option>Relation</option>
+                    <option>Dad</option>
+                    <option>Mom</option>
+                    <option>Brother</option>
+                    <option>Sister</option>
+                    <option>Brother-in-law</option>
+                    <option>Sister-in-law</option>
+                    <option>Uncle</option>
+                    <option>Aunt</option>
+                    <option>Close-ones</option>
+                    <option>Far-ones</option>
+                </select>
+                <label for="Phone-no.">Phone-No.:</label>
+                <input type="number" id="Phone-no." placeholder="1234567890" required>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
